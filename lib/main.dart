@@ -30,9 +30,7 @@ class XylophoneApp extends StatelessWidget {
         ),
         body: SafeArea(
           child: Column(
-            //mainAxisSize: MainAxisSize.max,
             crossAxisAlignment: CrossAxisAlignment.stretch,
-            //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               buildKey(color: Colors.red, soundNumber: 1),
               buildKey(color: Colors.orange, soundNumber: 2),
